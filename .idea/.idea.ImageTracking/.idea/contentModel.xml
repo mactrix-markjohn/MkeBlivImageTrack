@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\chukw\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\chukw\.Rider2019.1\system\resharper-host\Local\Transient\ReSharperHost\v191\SolutionCaches\_ImageTracking.1936529765.00" t="ExcludeRecursive" />
+    <e p="C:\Users\chukw\Documents\ExtendedReality\GitHub\ImageTracking" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Demo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="PlayAnimationOnOffTracking.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ARFoundationHelper" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ARFoundationHelperSettings.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="NYImageTrackerEditor.cs" t="Include" />
+              <e p="NYImageTrackerManagerEditor.cs" t="Include" />
+            </e>
+            <e p="NYImageTracker.cs" t="Include" />
+            <e p="NYImageTrackerEventHandler.cs" t="Include" />
+            <e p="NYImageTrackerManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Prefabs" t="Include">
+          <e p="LocalTrackingPrefabs" t="Include">
+            <e p="Videos360" t="Include">
+              <e p="ActivateObject.cs" t="Include" />
+              <e p="DragAndRotateCube.cs" t="Include" />
+              <e p="Flip Normals.shader" t="Include" />
+              <e p="InvertObjectNormals.cs" t="Include" />
+              <e p="LookAround360Video.cs" t="Include" />
+              <e p="Mask.shader" t="Include" />
+              <e p="SwipeHandler.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ARSpawnObject.cs" t="Include" />
+          <e p="CloudTrackingScripts" t="Include">
+            <e p="CloudARController.cs" t="Include" />
+            <e p="FillRuntimeReferenceLibrary.cs" t="Include" />
+            <e p="VideoTrackedPrefabScript.cs" t="Include" />
+          </e>
+          <e p="FoundTrackScript.cs" t="Include" />
+          <e p="StringStore.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ImageTracking.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

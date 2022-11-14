@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4631244912612261075
+  m_GuidHigh: 13951762899573337997
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5464578283912396613
+      m_GuidHigh: 7274652689898145960
+    m_SerializedTextureGuid:
+      m_GuidLow: 10936106540143893905
+      m_GuidHigh: 5828367750754604171
+    m_Size: {x: 0.1, y: 0.06339669}
+    m_SpecifySize: 1
+    m_Name: StanbicCard
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5000554379479699474
+      m_GuidHigh: 6191028157381216146
+    m_SerializedTextureGuid:
+      m_GuidLow: 9490413900290684600
+      m_GuidHigh: 6103561828507806137
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: CrayonPhoto
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5606593159108110045
+      m_GuidHigh: 10563931157548101790
+    m_SerializedTextureGuid:
+      m_GuidLow: 13444425244792376212
+      m_GuidHigh: 10686864871391346010
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Bikephoto
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5077571826921357702
+      m_GuidHigh: 18342033416060186524
+    m_SerializedTextureGuid:
+      m_GuidLow: 2933220187507996697
+      m_GuidHigh: 11728493018638431816
+    m_Size: {x: 0.1, y: 0.056250002}
+    m_SpecifySize: 1
+    m_Name: Alphainvestmentphoto
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5255601621443993640
+      m_GuidHigh: 11379082509115427512
+    m_SerializedTextureGuid:
+      m_GuidLow: 2536931512546130087
+      m_GuidHigh: 16806798296564155992
+    m_Size: {x: 0.1, y: 0.056250002}
+    m_SpecifySize: 1
+    m_Name: Onekraizeenightphoto
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5339483375976267571
+      m_GuidHigh: 2000777187149432706
+    m_SerializedTextureGuid:
+      m_GuidLow: 10386667176198539702
+      m_GuidHigh: 15326271313550154856
+    m_Size: {x: 0.1, y: 0.0910017}
+    m_SpecifySize: 1
+    m_Name: ARVRAfrica
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5393808634679406151
+      m_GuidHigh: 12207819181565847974
+    m_SerializedTextureGuid:
+      m_GuidLow: 16637696490656029465
+      m_GuidHigh: 9420375794656953784
+    m_Size: {x: 0.1, y: 0.09904975}
+    m_SpecifySize: 1
+    m_Name: WrestlingImageTrack
+    m_Texture: {fileID: 0}

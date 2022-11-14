@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1c51ec3-0eb7-4a59-9bd8-c7876aa81b05" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StringStore.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="38" column="173" selection-start-line="38" selection-start-column="173" selection-end-line="38" selection-end-column="173" />
+              <folding>
+                <marker date="1665749382863" expanded="true" signature="6:78" ph="..." />
+                <marker date="1665749382863" expanded="true" signature="104:1718" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/CloudARController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2821">
+              <caret line="241" column="38" selection-start-line="241" selection-start-column="38" selection-end-line="241" selection-end-column="38" />
+              <folding>
+                <marker date="1665757590741" expanded="true" signature="6:280" ph="..." />
+                <marker date="1665757590741" expanded="true" signature="74:128" ph="/* using Firebase.Extensions; ... */" />
+                <marker date="1665757590741" expanded="true" signature="328:9134" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="351:418" ph="/* FirebaseStorage storage; ... */" />
+                <marker date="1665757590741" expanded="true" signature="1067:1216" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="1139:1210" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="1242:1723" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="1266:1375" ph="/* TestVideoURL(); ... */" />
+                <marker date="1665757590741" expanded="true" signature="1812:2599" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="2135:2196" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="2196:2593" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="2315:2480" ph="/* setting the loaded image to our object ... */" />
+                <marker date="1665757590741" expanded="true" signature="2686:3557" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="2741:3456" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="2872:3445" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3116:3263" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3314:3430" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3484:3551" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3578:3679" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3710:3810" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3892:4774" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="3980:4032" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4147:4607" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4336:4407" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4525:4597" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4714:4768" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4828:6451" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="4893:5017" ph="/* string imageName = image.referenceImage.name; ... */" />
+                <marker date="1665757590741" expanded="false" signature="5604:6271" ph="/* storageReference = storage.GetReferenceFromUrl(StringStore.FSBucketLink) ... */" />
+                <marker date="1665757590741" expanded="true" signature="6514:7141" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="6670:7041" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="7054:7126" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="7188:7362" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="7242:7356" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="7389:8377" ph="{...}" />
+                <marker date="1665757590741" expanded="false" signature="7680:8371" ph="/* storageReference = storage.GetReferenceFromUrl(StringStore.FSBucketLink) ... */" />
+                <marker date="1665757590741" expanded="true" signature="8451:9130" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="8715:9124" ph="{...}" />
+                <marker date="1665757590741" expanded="true" signature="8904:9111" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FoundTrackScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+              <folding>
+                <marker date="1665759904193" expanded="true" signature="6:162" ph="..." />
+                <marker date="1665759904193" expanded="true" signature="209:6212" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="346:423" ph="/// Get the &lt;c&gt;ARTrackedImageManager&lt;/c&gt; ... " />
+                <marker date="1665759904193" expanded="true" signature="469:551" ph="{...}" />
+                <marker date="1665759904193" expanded="false" signature="664:743" ph="/// Get the &lt;c&gt;XRReferenceImageLibrary&lt;/c&gt; ... " />
+                <marker date="1665759904193" expanded="true" signature="791:873" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="1200:1636" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="1254:1630" ph="{...}" />
+                <marker date="1665759904193" expanded="false" signature="1408:1620" ph="/* GameObject spawned = Instantiate(prefab, Vector3.zero, Quaternion.identity); ... */" />
+                <marker date="1665759904193" expanded="true" signature="1662:1771" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="1792:1949" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="1980:2075" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2157:3038" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2245:2297" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2412:2872" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2601:2672" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2790:2862" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="2979:3032" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="3083:4254" ph="{...}" />
+                <marker date="1665759904193" expanded="false" signature="3645:4248" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+                <marker date="1665759904193" expanded="true" signature="4317:5825" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="4488:4859" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="4872:4944" ph="{...}" />
+                <marker date="1665759904193" expanded="false" signature="4989:5819" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+                <marker date="1665759904193" expanded="true" signature="5872:6205" ph="{...}" />
+                <marker date="1665759904193" expanded="true" signature="5941:6085" ph="{...}" />
+                <marker date="1665759904193" expanded="false" signature="6097:6199" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/ARScene Scripts/ARScriptGeneral.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="179" column="17" selection-start-line="176" selection-start-column="15" selection-end-line="179" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../MkeBliv/Lens/Assets/Scripts/CloudImageTrackingScripts/CloudARController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/PictureScene Scripts/PictureScriptGeneral.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ARSpawnObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/MainScene Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoundTrackScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/ARScene Scripts/ARScriptGeneral.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/VideoTrackedPrefabScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Demo/Scripts/PlayAnimationOnOffTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/FillRuntimeReferenceLibrary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MkeBliv/Lens/Assets/Scripts/StringStore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity Tutorials/arfoundation-demos-master/arfoundation-demos-master/Assets/ImageTracking/Scripts/ImageTrackingObjectManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/CloudARController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ARDemo/Assets/ImageTracking/Scripts/ImageTrackingObjectManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ARSpawnObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Videos/Flip Normals.shader" />
+        <option value="$PROJECT_DIR$/Assets/Videos/InvertObjectNormals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Videos/Mask.shader" />
+        <option value="$PROJECT_DIR$/Assets/Videos/LookAround360Video.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragAndRotateCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Videos/ActivateObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Videos/DragAndRotateCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prefabs/Videos360/SwipeHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prefabs/Videos360/DragAndRotateCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/VideoTrackedPrefabScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/FillRuntimeReferenceLibrary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringStore.cs" />
+        <option value="$PROJECT_DIR$/../MkeBliv/Lens/Assets/Scripts/CloudImageTrackingScripts/CloudARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/CloudARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoundTrackScript.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="302" />
+    <option name="y" value="102" />
+    <option name="width" value="807" />
+    <option name="height" value="556" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1c51ec3-0eb7-4a59-9bd8-c7876aa81b05" name="Default Changelist" comment="" />
+      <created>1661546131588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661546131588</updated>
+      <workItem from="1661546175624" duration="1911000" />
+      <workItem from="1662922539063" duration="171000" />
+      <workItem from="1662978586989" duration="510000" />
+      <workItem from="1662980252716" duration="12600000" />
+      <workItem from="1663063459131" duration="6635000" />
+      <workItem from="1663525623341" duration="12465000" />
+      <workItem from="1663615130883" duration="11152000" />
+      <workItem from="1665574048650" duration="12312000" />
+      <workItem from="1665748335857" duration="3778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61534000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20332578" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/ARFoundationHelper/Assets/_Demo/Scripts/PlayAnimationOnOffTracking.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Demo/Scripts/PlayAnimationOnOffTracking.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1627569812000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1627569812000" expanded="true" signature="148:448" ph="{...}" />
+            <marker date="1627569812000" expanded="true" signature="296:350" ph="{...}" />
+            <marker date="1627569812000" expanded="true" signature="393:446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ARDemo/Assets/ImageTracking/Scripts/ImageTrackingObjectManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ARDemo/Assets/ImageTracking/Scripts/DistanceManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ARDemo/Assets/ImageTracking/Scripts/NumberManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DragAndRotateCube.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ActivateObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/Flip Normals.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/InvertObjectNormals.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/Mask.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/LookAround360Video.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/ActivateObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Videos/DragAndRotateCube.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Unity Tutorials/arfoundation-demos-master/arfoundation-demos-master/Assets/ImageTracking/Scripts/ImageTrackingObjectManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Prefabs/Videos360/SwipeHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Prefabs/Videos360/DragAndRotateCube.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ARSpawnObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1663064277538" expanded="true" signature="6:103" ph="..." />
+            <marker date="1663064277538" expanded="true" signature="147:1454" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="313:334" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="392:413" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="440:732" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="479:565" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="596:725" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="762:931" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="801:925" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="851:915" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="964:1133" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1003:1127" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1052:1117" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1162:1357" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1201:1253" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1292:1351" ph="{...}" />
+            <marker date="1663064277538" expanded="true" signature="1400:1450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/VideoTrackedPrefabScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1665589114555" expanded="false" signature="6:103" ph="..." />
+            <marker date="1665589114555" expanded="true" signature="158:521" ph="{...}" />
+            <marker date="1665589114555" expanded="true" signature="277:298" ph="{...}" />
+            <marker date="1665589114555" expanded="true" signature="356:377" ph="{...}" />
+            <marker date="1665589114555" expanded="true" signature="416:519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/PictureScene Scripts/PictureScriptGeneral.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/MainScene Scripts/MainScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHubProjects/VocalImageAR/Assets/Scripts/ARScene Scripts/ARScriptGeneral.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="179" column="17" selection-start-line="176" selection-start-column="15" selection-end-line="179" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MkeBliv/Lens/Assets/Scripts/StringStore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="36" column="173" selection-start-line="31" selection-start-column="3" selection-end-line="36" selection-end-column="173" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MkeBliv/Lens/Assets/Scripts/CloudImageTrackingScripts/CloudARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="242" column="8" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="8" />
+          <folding>
+            <marker date="1665749382607" expanded="true" signature="6:280" ph="..." />
+            <marker date="1665749382607" expanded="true" signature="74:128" ph="/* using Firebase.Extensions; ... */" />
+            <marker date="1665749382607" expanded="true" signature="328:9756" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="350:418" ph="/* FirebaseStorage storage; ... */" />
+            <marker date="1665749382607" expanded="true" signature="1051:1200" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="1123:1194" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="1226:1696" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="1250:1359" ph="/* TestVideoURL(); ... */" />
+            <marker date="1665749382607" expanded="true" signature="1774:2559" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="2095:2156" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="2156:2553" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="2275:2440" ph="/* setting the loaded image to our object ... */" />
+            <marker date="1665749382607" expanded="true" signature="2646:3544" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="2719:3433" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="2850:3422" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="3094:3241" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="3292:3405" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="3461:3528" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="3630:4799" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="3918:4658" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="4044:4633" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="4437:4584" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="4686:4792" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="4825:4926" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="4957:5057" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5139:6021" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5227:5279" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5394:5854" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5583:5654" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5772:5844" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="5961:6015" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="6075:7688" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="6150:6274" ph="/* string imageName = image.referenceImage.name; ... */" />
+            <marker date="1665749382607" expanded="false" signature="6875:7542" ph="/* storageReference = storage.GetReferenceFromUrl(StringStore.FSBucketLink) ... */" />
+            <marker date="1665749382607" expanded="true" signature="7751:8387" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="7916:8287" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="8300:8372" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="8434:8608" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="8488:8602" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="8635:8999" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="9073:9752" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="9337:9746" ph="{...}" />
+            <marker date="1665749382607" expanded="true" signature="9526:9733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/CloudARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2821">
+          <caret line="241" column="38" selection-start-line="241" selection-start-column="38" selection-end-line="241" selection-end-column="38" />
+          <folding>
+            <marker date="1665757590741" expanded="true" signature="6:280" ph="..." />
+            <marker date="1665757590741" expanded="true" signature="74:128" ph="/* using Firebase.Extensions; ... */" />
+            <marker date="1665757590741" expanded="true" signature="328:9134" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="351:418" ph="/* FirebaseStorage storage; ... */" />
+            <marker date="1665757590741" expanded="true" signature="1067:1216" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="1139:1210" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="1242:1723" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="1266:1375" ph="/* TestVideoURL(); ... */" />
+            <marker date="1665757590741" expanded="true" signature="1812:2599" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="2135:2196" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="2196:2593" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="2315:2480" ph="/* setting the loaded image to our object ... */" />
+            <marker date="1665757590741" expanded="true" signature="2686:3557" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="2741:3456" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="2872:3445" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3116:3263" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3314:3430" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3484:3551" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3578:3679" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3710:3810" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3892:4774" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="3980:4032" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4147:4607" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4336:4407" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4525:4597" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4714:4768" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4828:6451" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="4893:5017" ph="/* string imageName = image.referenceImage.name; ... */" />
+            <marker date="1665757590741" expanded="false" signature="5604:6271" ph="/* storageReference = storage.GetReferenceFromUrl(StringStore.FSBucketLink) ... */" />
+            <marker date="1665757590741" expanded="true" signature="6514:7141" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="6670:7041" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="7054:7126" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="7188:7362" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="7242:7356" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="7389:8377" ph="{...}" />
+            <marker date="1665757590741" expanded="false" signature="7680:8371" ph="/* storageReference = storage.GetReferenceFromUrl(StringStore.FSBucketLink) ... */" />
+            <marker date="1665757590741" expanded="true" signature="8451:9130" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="8715:9124" ph="{...}" />
+            <marker date="1665757590741" expanded="true" signature="8904:9111" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CloudTrackingScripts/FillRuntimeReferenceLibrary.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1665613213519" expanded="true" signature="0:3580" ph="/* using System; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StringStore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="38" column="173" selection-start-line="38" selection-start-column="173" selection-end-line="38" selection-end-column="173" />
+          <folding>
+            <marker date="1665749382863" expanded="true" signature="6:78" ph="..." />
+            <marker date="1665749382863" expanded="true" signature="104:1718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FoundTrackScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <marker date="1665759904193" expanded="true" signature="6:162" ph="..." />
+            <marker date="1665759904193" expanded="true" signature="209:6212" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="346:423" ph="/// Get the &lt;c&gt;ARTrackedImageManager&lt;/c&gt; ... " />
+            <marker date="1665759904193" expanded="true" signature="469:551" ph="{...}" />
+            <marker date="1665759904193" expanded="false" signature="664:743" ph="/// Get the &lt;c&gt;XRReferenceImageLibrary&lt;/c&gt; ... " />
+            <marker date="1665759904193" expanded="true" signature="791:873" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="1200:1636" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="1254:1630" ph="{...}" />
+            <marker date="1665759904193" expanded="false" signature="1408:1620" ph="/* GameObject spawned = Instantiate(prefab, Vector3.zero, Quaternion.identity); ... */" />
+            <marker date="1665759904193" expanded="true" signature="1662:1771" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="1792:1949" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="1980:2075" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2157:3038" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2245:2297" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2412:2872" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2601:2672" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2790:2862" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="2979:3032" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="3083:4254" ph="{...}" />
+            <marker date="1665759904193" expanded="false" signature="3645:4248" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+            <marker date="1665759904193" expanded="true" signature="4317:5825" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="4488:4859" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="4872:4944" ph="{...}" />
+            <marker date="1665759904193" expanded="false" signature="4989:5819" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+            <marker date="1665759904193" expanded="true" signature="5872:6205" ph="{...}" />
+            <marker date="1665759904193" expanded="true" signature="5941:6085" ph="{...}" />
+            <marker date="1665759904193" expanded="false" signature="6097:6199" ph="/* GameObject arObject = prefabObjects[image.referenceImage.name]; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
