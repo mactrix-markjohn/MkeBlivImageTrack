@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 43b227d807cce4429b37161d972181db
+  - enabled: 1
+    path: Assets/Scenes/EmailEntryScene.unity
+    guid: e8552ede0420f41de9f3099f62ec314f
+  - enabled: 1
+    path: Assets/Scenes/ARLensScene.unity
+    guid: 9f277d17531d4406099fa292f3164602
+  - enabled: 0
+    path: Assets/Scenes/MenuScene.unity
+    guid: 86b9274c582824e499cda301a002e513
+  - enabled: 0
     path: Assets/Scenes/ImageTrackingHelper.unity
     guid: 78ec66f3f83835844b446cfadf51a3d4
+  - enabled: 0
+    path: Assets/Scenes/CloudImageTracking.unity
+    guid: 044c52034671809428937ee3be891ed1
+  - enabled: 0
+    path: Assets/Scenes/Video360Scene.unity
+    guid: 530d9c0e78015431b820db4eda81d173
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 07fc8c48c929e004ea6779b8dbfbc61e, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 743ab144a56a0c94bbc5586ad731d74d, type: 2}

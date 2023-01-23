@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 5464578283912396613
       m_GuidHigh: 7274652689898145960
     m_SerializedTextureGuid:
-      m_GuidLow: 10936106540143893905
-      m_GuidHigh: 5828367750754604171
-    m_Size: {x: 0.1, y: 0.06339669}
+      m_GuidLow: 11881390150452953224
+      m_GuidHigh: 2733768465366521754
+    m_Size: {x: 0.1, y: 0.06297828}
     m_SpecifySize: 1
     m_Name: StanbicCard
     m_Texture: {fileID: 0}
@@ -86,4 +86,74 @@ MonoBehaviour:
     m_Size: {x: 0.1, y: 0.09904975}
     m_SpecifySize: 1
     m_Name: WrestlingImageTrack
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4857052020317882591
+      m_GuidHigh: 10168582515387777935
+    m_SerializedTextureGuid:
+      m_GuidLow: 1510098721978357203
+      m_GuidHigh: 3323834263657921337
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: StanbicLogo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4724140407888481944
+      m_GuidHigh: 3525471280678197662
+    m_SerializedTextureGuid:
+      m_GuidLow: 3789836011232480264
+      m_GuidHigh: 15879768741163529147
+    m_Size: {x: 0.1, y: 0.030519482}
+    m_SpecifySize: 1
+    m_Name: DiamondLogo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4870989230175883194
+      m_GuidHigh: 11336507636792741055
+    m_SerializedTextureGuid:
+      m_GuidLow: 6106212305896018027
+      m_GuidHigh: 1531978141684757099
+    m_Size: {x: 0.1, y: 0.026564775}
+    m_SpecifySize: 1
+    m_Name: FirstBankLogo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5096383472444477704
+      m_GuidHigh: 16359885017550797217
+    m_SerializedTextureGuid:
+      m_GuidLow: 11818129008888427488
+      m_GuidHigh: 14842753045745343128
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MyyClibLogo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4900303006817424582
+      m_GuidHigh: 8228248041749740473
+    m_SerializedTextureGuid:
+      m_GuidLow: 4919314882301240691
+      m_GuidHigh: 6504022169714507899
+    m_Size: {x: 0.1, y: 0.054097224}
+    m_SpecifySize: 1
+    m_Name: Bankai
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5596850870322431060
+      m_GuidHigh: 16750164595348914581
+    m_SerializedTextureGuid:
+      m_GuidLow: 6053691982539329100
+      m_GuidHigh: 7745417820799296873
+    m_Size: {x: 0.1, y: 0.059359606}
+    m_SpecifySize: 1
+    m_Name: AltSchool
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5755254763253073532
+      m_GuidHigh: 5425900420537702559
+    m_SerializedTextureGuid:
+      m_GuidLow: 4944041584371760965
+      m_GuidHigh: 1874137983344157882
+    m_Size: {x: 0.1, y: 0.051857043}
+    m_SpecifySize: 1
+    m_Name: CityVideo360
     m_Texture: {fileID: 0}

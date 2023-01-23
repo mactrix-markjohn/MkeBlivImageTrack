@@ -65,9 +65,6 @@ public class CloudARController : MonoBehaviour
     }
     
     
-    
-    
-    
      IEnumerator LoadImage(string MediaUrl, string texturename){
 
          UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl); //Create a request
@@ -293,7 +290,12 @@ public class CloudARController : MonoBehaviour
     
     public static void _ShowAndroidToastMessage(string message)
     {
-        AndroidJavaClass unityPlayer =
+
+
+        if (Application.platform != RuntimePlatform.Android)
+            return;
+
+            AndroidJavaClass unityPlayer =
             new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject unityActivity =
             unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");

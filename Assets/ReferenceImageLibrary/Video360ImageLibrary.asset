@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: Video360ImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5693351398773377296
+  m_GuidHigh: 1728198538733866429
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5087356866110250823
+      m_GuidHigh: 16003836254588837051
+    m_SerializedTextureGuid:
+      m_GuidLow: 4944041584371760965
+      m_GuidHigh: 1874137983344157882
+    m_Size: {x: 0.1, y: 0.051857043}
+    m_SpecifySize: 1
+    m_Name: CityVideo360
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5108584995232235482
+      m_GuidHigh: 8741605645891828663
+    m_SerializedTextureGuid:
+      m_GuidLow: 16637696490656029465
+      m_GuidHigh: 9420375794656953784
+    m_Size: {x: 0.1, y: 0.09904975}
+    m_SpecifySize: 1
+    m_Name: WrestlingImageTrack
+    m_Texture: {fileID: 0}

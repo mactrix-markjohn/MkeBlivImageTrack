@@ -65,6 +65,8 @@ public class FoundTrackScript : MonoBehaviour
     {
         m_ImageManager.referenceLibrary = m_ImageLibrary;
         m_ImageManager.enabled = true;
+        
+        
     }
 
     void OnEnable()
@@ -163,10 +165,7 @@ public class FoundTrackScript : MonoBehaviour
             
             arObject.SetActive(false);
         }
-        
-        
-        
-        
+
         /*GameObject arObject = prefabObjects[image.referenceImage.name];
         
         if (isTracking)
