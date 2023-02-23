@@ -244,7 +244,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.01
   far clip plane: 20
   field of view: 60
   orthographic: 0
@@ -666,6 +666,7 @@ MonoBehaviour:
   - {fileID: 2900264168761410759, guid: 94c144c6d3b540c488446168e6bc7497, type: 3}
   CloudARObjectPrefabs:
   - {fileID: 6571138329350752630, guid: 42b28f853e82e2a438620acee0b0d970, type: 3}
+  renderPipelineAsset: {fileID: 11400000, guid: 33b1ca2c0580f8443bac69e533611b09, type: 2}
 --- !u!1 &848121661
 GameObject:
   m_ObjectHideFlags: 0

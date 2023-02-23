@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class OnBoarding : MonoBehaviour
 {
@@ -10,6 +12,10 @@ public class OnBoarding : MonoBehaviour
     private int prevNo = 0;
     private int listCount = 0;
 
+    private void Awake()
+    {
+        //DeactivateURPRenderPipeline();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +77,14 @@ public class OnBoarding : MonoBehaviour
        GetComponent<SceneTransition>().TransitionScene(StringStore.EmailEntryScene);
        
     }
+    
+    void DeactivateURPRenderPipeline()
+    {
+        GraphicsSettings.renderPipelineAsset = null;
+        QualitySettings.renderPipeline = null;
+    }
+
+    
 
 
 }

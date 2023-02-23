@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.Rendering;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -47,6 +48,16 @@ public class ARLensManagerScript : MonoBehaviour
     private string cloudPrefabName;
     
     
+    // List of Gameobject for Cloud 3D Model AR
+    private GameObject downloaded3DModel;  // Gameobject to store the downloaded 3D mode from the Cloud;
+    
+    // Get the Render pipeline asset, so we can easy switch it off. This will allow us view the 3D model
+    // downloaded from the cloud
+    
+    public RenderPipelineAsset renderPipelineAsset;
+    
+    
+    
     private void Awake()
     {
         
@@ -84,9 +95,18 @@ public class ARLensManagerScript : MonoBehaviour
         m_ImageManager.enabled = true;
         
         
+        
+        // Here we simply Fetch all the reference images from  the cloud
+        // and then import them into the Runtime Image Library
+        StartCoroutine(LoadImage(StringStore.BasketballImageWhite, "BasketballWhiteModel"));
+
+        
+        
         // This statement is a Stud command to load images from the cloud into the Runtime Reference Image Library
         StartCoroutine(LoadImage(StringStore.StanbicReferenceImageLink, StringStore.StanbicCardCloud));
 
+       
+        
     }
 
     // Update is called once per frame
@@ -220,11 +240,15 @@ public class ARLensManagerScript : MonoBehaviour
            Video360AddedImageEvent(image);
            
 
+        }else if (imageName.Contains("Model"))
+        {
+            
+            ModelAddedImageEvent(image);
+
         }else
         {
             // if the Image name ends with Local
             LocalAddedImageEvent(image);
-            
             
         }
     }
@@ -247,6 +271,10 @@ public class ARLensManagerScript : MonoBehaviour
             Video360UpdateImageEvent(image,isTracking);
             
             
+        }else if (imageName.Contains("Model"))
+        {
+            ModelUpdatedImageEvent(image, isTracking);
+
         }else
         {
             // if the Image name ends with Local
@@ -274,6 +302,10 @@ public class ARLensManagerScript : MonoBehaviour
             Video360RemoveImageEvent(image);
             
             
+        }else if (imageName.Contains("Model"))
+        {
+            ModelRemovedImageEvent(image);
+
         }else
         {
             //TODO: working on this 
@@ -447,6 +479,85 @@ public class ARLensManagerScript : MonoBehaviour
     #endregion
 
 
+    #region 3D Model Image Events Functions
+
+    
+    private void ModelAddedImageEvent(ARTrackedImage image)
+    {
+        //downloaded3DModel = Instantiate(prefabObjects["ARVRAfrica"], image.transform.position, image.transform.rotation);
+        //downloaded3DModel.transform.localScale = new Vector3(image.referenceImage.size.x,downloaded3DModel.transform.localScale.y,image.referenceImage.size.y);
+
+        StartCoroutine(Fetch3DModel(image));
+       
+        
+        
+    } 
+    
+    IEnumerator Fetch3DModel(ARTrackedImage image)
+    {
+        // First, deactivate the URP render pipeline, this will allow downloaded 3D model to be visible
+        //DeactivateURPRenderPipeline();
+        
+        yield return new WaitForSeconds(2f);
+        
+        Fetch3DModelFromCloud fetch3DModelFromCloud = new Fetch3DModelFromCloud();
+        //fetch3DModelFromCloud.StartFetchingModel(StringStore.Basketballfbx,"fbx");
+        fetch3DModelFromCloud.StartFetchingModel(StringStore.Basketballfbx);
+
+        yield return new WaitUntil(() => fetch3DModelFromCloud.isLoaded);
+
+        downloaded3DModel = fetch3DModelFromCloud.Loaded3DModel;
+
+        var imageTransform = image.transform;
+        downloaded3DModel.transform.position = imageTransform.position;
+        downloaded3DModel.transform.rotation = imageTransform.rotation;
+        
+        downloaded3DModel.transform.localScale = new Vector3(1f,1f,1f);
+        
+        
+        
+    }
+    private void ModelUpdatedImageEvent(ARTrackedImage image, bool isTracking)
+    {
+        if (downloaded3DModel == null)
+            return;
+        
+        
+        if (isTracking)
+        {
+            downloaded3DModel.SetActive(true);
+           
+            var imageTransform = image.transform;
+            //downloaded3DModel.transform.SetPositionAndRotation(imageTransform.position,imageTransform.rotation);
+            downloaded3DModel.transform.position = imageTransform.position;
+            downloaded3DModel.transform.rotation = imageTransform.rotation;
+            
+            
+            //downloaded3DModel.transform.localScale = new Vector3(image.referenceImage.size.x,downloaded3DModel.transform.localScale.y,image.referenceImage.size.y);
+            
+            
+        }
+        else
+        {
+            
+            downloaded3DModel.SetActive(false);
+        }
+    } 
+    
+    private void ModelRemovedImageEvent(ARTrackedImage image)
+    {
+        if (downloaded3DModel!= null)
+        {
+            Destroy(downloaded3DModel);
+            
+        }
+        
+        // Reactivate the URP Render pipeline, so that experience that depend on it, will work.
+        //ActivateURPRenderPipeline();
+    }
+    
+
+    #endregion
    
 
 
@@ -474,7 +585,17 @@ public class ARLensManagerScript : MonoBehaviour
             }));
         }
     }
-    
-    
-    
+
+    void DeactivateURPRenderPipeline()
+    {
+        GraphicsSettings.renderPipelineAsset = null;
+        QualitySettings.renderPipeline = null;
+    }
+
+    void ActivateURPRenderPipeline()
+    {
+        GraphicsSettings.renderPipelineAsset = renderPipelineAsset;
+        QualitySettings.renderPipeline = renderPipelineAsset;
+    }
+
 }
