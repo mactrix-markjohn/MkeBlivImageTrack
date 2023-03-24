@@ -99,7 +99,6 @@ public class ARLensManagerScript : MonoBehaviour
         // Here we simply Fetch all the reference images from  the cloud
         // and then import them into the Runtime Image Library
         StartCoroutine(LoadImage(StringStore.BasketballImageWhite, "BasketballWhiteModel"));
-
         
         
         // This statement is a Stud command to load images from the cloud into the Runtime Reference Image Library
@@ -502,7 +501,7 @@ public class ARLensManagerScript : MonoBehaviour
         
         Fetch3DModelFromCloud fetch3DModelFromCloud = new Fetch3DModelFromCloud();
         //fetch3DModelFromCloud.StartFetchingModel(StringStore.Basketballfbx,"fbx");
-        fetch3DModelFromCloud.StartFetchingModel(StringStore.Basketballfbx);
+        fetch3DModelFromCloud.StartFetchingModel(StringStore.AfricaXrFbxLink);
 
         yield return new WaitUntil(() => fetch3DModelFromCloud.isLoaded);
 
@@ -511,8 +510,13 @@ public class ARLensManagerScript : MonoBehaviour
         var imageTransform = image.transform;
         downloaded3DModel.transform.position = imageTransform.position;
         downloaded3DModel.transform.rotation = imageTransform.rotation;
+
+        //var rotating = image.transform.rotation;
+
+        //downloaded3DModel.transform.rotation = Quaternion.Euler(0f,90f,0f);
         
-        downloaded3DModel.transform.localScale = new Vector3(1f,1f,1f);
+        
+        downloaded3DModel.transform.localScale = new Vector3(0.08f,0.08f,0.08f);
         
         
         

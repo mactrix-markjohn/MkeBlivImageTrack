@@ -71,6 +71,7 @@
       <Path>BuildJoey</Path>
       <Path>BuildTobi</Path>
       <Path>BuildTobi_BurstDebugInformation_DoNotShip</Path>
+      <Path>Build_BurstDebugInformation_DoNotShip</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>

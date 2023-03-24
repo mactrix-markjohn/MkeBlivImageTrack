@@ -34,6 +34,8 @@ public class StringStore
 
     public static string BasketballImageOrange = "https://firebasestorage.googleapis.com/v0/b/mkebliv-4057f.appspot.com/o/ReferenceImages%2Fbasketballorangeback.jpg?alt=media&token=aca79f20-5f47-4748-8a42-0201e12e6288";
     
+    
+    
     // --------- Firebase Storage folder names -----------------------
     public static string FSImages = "Images";
     public static string FSModels = "Models";
@@ -69,7 +71,7 @@ public class StringStore
 
     public static string BeeZipLink = "https://firebasestorage.googleapis.com/v0/b/mkebliv-4057f.appspot.com/o/Models%2Fbee-3d.zip?alt=media&token=0b73d2fc-13e7-4fec-9b96-02a6dc09eb6f";
 
-    public static string AfricaXrFbxLink = "https://firebasestorage.googleapis.com/v0/b/mkebliv-4057f.appspot.com/o/Models%2FAfricaAR.fbx?alt=media&token=55efa6bf-e79e-4652-88be-f9d5e5593011";
+    public static string AfricaXrFbxLink = "https://firebasestorage.googleapis.com/v0/b/mkebliv-4057f.appspot.com/o/Models%2FAfricaXRModel.fbx?alt=media&token=99bf51d1-260a-4739-ac7b-efb989695865";
 
     public static string Basketballfbx = "https://firebasestorage.googleapis.com/v0/b/mkebliv-4057f.appspot.com/o/Models%2FBasketball.FBX?alt=media&token=ff0ccab3-c2d8-4000-8466-837f9af1c06b";
     
