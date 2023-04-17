@@ -21,6 +21,11 @@ public class OnBoarding : MonoBehaviour
     void Start()
     {
         listCount = Slides.Count;
+        for (int i = 1; i < Slides.Capacity; i++)
+        {
+            Slides[i].SetActive(false);
+        }
+        
     }
 
     // Update is called once per frame
@@ -40,10 +45,18 @@ public class OnBoarding : MonoBehaviour
         GameObject prevSlide = Slides[prevNo];
 
         prevNo = currentNo;
+        
+       
 
-        prevSlide.GetComponent<CanvasGroup>().LeanAlpha(0, 0.5f);
+        prevSlide.GetComponent<CanvasGroup>().LeanAlpha(0, 1f).setOnComplete(() =>
+        {
+            prevSlide.SetActive(false);
+        });;
+        
+        slide.SetActive(true);
+        
 
-        slide.GetComponent<CanvasGroup>().LeanAlpha(1, 0.5f);
+        slide.GetComponent<CanvasGroup>().LeanAlpha(1, 1f);
 
     }
 
@@ -62,12 +75,21 @@ public class OnBoarding : MonoBehaviour
         
         GameObject slide = Slides[currentNo];
         GameObject prevSlide = Slides[prevNo];
-
+        
         prevNo = currentNo;
 
-        prevSlide.GetComponent<CanvasGroup>().LeanAlpha(0, 0.5f);
+      
+        
+        
+        prevSlide.GetComponent<CanvasGroup>().LeanAlpha(0, 1f).setOnComplete(() =>
+        {
+            prevSlide.SetActive(false);
+        });
+        
+        slide.SetActive(true);
+        
 
-        slide.GetComponent<CanvasGroup>().LeanAlpha(1, 0.5f);
+        slide.GetComponent<CanvasGroup>().LeanAlpha(1, 1f);
        
     }
 
