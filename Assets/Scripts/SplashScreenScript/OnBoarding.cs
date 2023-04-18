@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.Rendering;
+using UnityEngine.XR.ARFoundation;
 
 public class OnBoarding : MonoBehaviour
 {
@@ -12,8 +14,15 @@ public class OnBoarding : MonoBehaviour
     private int prevNo = 0;
     private int listCount = 0;
 
+    [Space] 
+    public GameObject arSession;
+    public GameObject arSessionOrgin;
+    
+
     private void Awake()
     {
+        //arSession.SetActive(false);
+        //arSessionOrgin.SetActive(false);
         //DeactivateURPRenderPipeline();
     }
 
@@ -88,6 +97,17 @@ public class OnBoarding : MonoBehaviour
         
         slide.SetActive(true);
         
+        //check if it is slide 2
+        if (currentNo == 1)
+        {
+            Permission.RequestUserPermission(Permission.Camera);
+            
+            arSession.SetActive(true);
+            arSessionOrgin.SetActive(true);
+            
+            
+            
+        }
 
         slide.GetComponent<CanvasGroup>().LeanAlpha(1, 1f);
        
