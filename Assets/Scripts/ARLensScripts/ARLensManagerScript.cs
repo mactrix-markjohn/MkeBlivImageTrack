@@ -346,10 +346,26 @@ public class ARLensManagerScript : MonoBehaviour
             var imageTransform = image.transform;
             arObject.transform.SetPositionAndRotation(imageTransform.position,imageTransform.rotation);
             arObject.transform.localScale = new Vector3(image.referenceImage.size.x,arObject.transform.localScale.y,image.referenceImage.size.y);
+            
+            ARSpawnObject spawnObject = arObject.GetComponent<ARSpawnObject>();
+            if (spawnObject != null)
+            {
+                spawnObject.OffRawImage();
+            }
+                
+
+            
         }
         else
         {
-            arObject.SetActive(false);
+            //arObject.SetActive(false);
+
+            ARSpawnObject spawnObject = arObject.GetComponent<ARSpawnObject>();
+            if (spawnObject != null)
+            {
+                spawnObject.ShowRawImage();
+            }
+
         }
     }
 
@@ -461,7 +477,7 @@ public class ARLensManagerScript : MonoBehaviour
         else
         {
             
-            arObject.SetActive(false);
+            //arObject.SetActive(false);
         }
     }
 

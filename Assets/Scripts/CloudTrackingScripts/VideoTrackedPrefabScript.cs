@@ -7,6 +7,7 @@ public class VideoTrackedPrefabScript : MonoBehaviour
 {
 
     public VideoPlayer videoPlayer;
+    public VideoPlayer videoPlayer2RenderTex;
     
     
     // Start is called before the first frame update
@@ -25,7 +26,17 @@ public class VideoTrackedPrefabScript : MonoBehaviour
     {
         videoPlayer.url = url;
         videoPlayer.Prepare();
-        videoPlayer.Play();
+        videoPlayer.Play(); 
+        
+        videoPlayer2RenderTex.url = url;
+        videoPlayer2RenderTex.Prepare();
+        videoPlayer2RenderTex.Play();
 
     }
+
+    public void DestroyVirtualContent()
+    {
+        Destroy(gameObject);
+    }
+
 }

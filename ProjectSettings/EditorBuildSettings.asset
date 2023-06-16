@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity
     guid: 43b227d807cce4429b37161d972181db
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EmailEntryScene.unity
     guid: e8552ede0420f41de9f3099f62ec314f
+  - enabled: 1
+    path: Assets/Scenes/ImageTargetAssets.unity
+    guid: 6586b48e120f54900a1bb78204226102
   - enabled: 1
     path: Assets/Scenes/ARLensScene.unity
     guid: 9f277d17531d4406099fa292f3164602

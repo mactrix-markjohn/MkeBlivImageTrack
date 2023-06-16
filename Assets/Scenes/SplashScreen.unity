@@ -1038,14 +1038,13 @@ GameObject:
   m_Component:
   - component: {fileID: 303219362}
   - component: {fileID: 303219361}
-  - component: {fileID: 303219363}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &303219361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,20 +1074,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &303219363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303219360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 565732915913058323, guid: 6ea14b1ea3b0f40028caf46f54aed61b, type: 3}
-  m_MaximumFaceCount: 5
 --- !u!1 &364413833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,7 +2209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &707882271
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3775,7 +3760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1018589557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5830,7 +5815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1483028341
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5858,7 +5843,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483028340}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: feea26b94b90f4be6acbde7a38a8c08d, type: 2}
   m_InitialState: 1

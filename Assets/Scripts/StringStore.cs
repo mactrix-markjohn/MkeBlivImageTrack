@@ -86,5 +86,6 @@ public class StringStore
     public static string SplashScene = "SplashScene";
     public static string EmailEntryScene = "EmailEntryScene";
     public static string ARLensScene = "ARLensScene";
+    public static string ImageTargetAssets = "ImageTargetAssets";
 
 }

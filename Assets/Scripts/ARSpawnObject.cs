@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class ARSpawnObject : MonoBehaviour
@@ -11,17 +12,42 @@ public class ARSpawnObject : MonoBehaviour
     public Animator animator;
 
 
+    public GameObject rawImage;
+    public GameObject closeButton;
+    public GameObject content3D;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //rawImage.SetActive(false);
+        //content3D.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void DestroyVideoObject()
+    {
+        Destroy(gameObject);
+    }
+
+    public void OffRawImage()
+    {
+        rawImage.SetActive(false);
+        closeButton.SetActive(false);
+        content3D.SetActive(true);
+    }
+
+    public void ShowRawImage()
+    {
+        rawImage.SetActive(true);
+        closeButton.SetActive(true);
+        content3D.SetActive(false);
     }
 
     public void onAdded()

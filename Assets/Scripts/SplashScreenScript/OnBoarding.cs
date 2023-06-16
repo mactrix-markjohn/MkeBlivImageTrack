@@ -116,7 +116,10 @@ public class OnBoarding : MonoBehaviour
     public void GetStartedClick()
     {
        //TODO: Do some checking here with the firebase database and authentication
-       GetComponent<SceneTransition>().TransitionScene(StringStore.EmailEntryScene);
+       //GetComponent<SceneTransition>().TransitionScene(StringStore.ARLensScene);
+       GetComponent<SceneTransition>().TransitionScene(StringStore.ImageTargetAssets);
+       
+       
        
     }
     
