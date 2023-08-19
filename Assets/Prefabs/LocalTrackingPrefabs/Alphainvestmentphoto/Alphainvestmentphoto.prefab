@@ -114,6 +114,10 @@ MonoBehaviour:
   name: Alphainvestmentphoto
   videoPlayer: {fileID: 1659681608431640858}
   animator: {fileID: 0}
+  rawImage: {fileID: 0}
+  closeButton: {fileID: 0}
+  content3D: {fileID: 1659681609188470454}
+  videoRenderTexture: {fileID: 8400000, guid: 45f2747de0082214aaecad42f398798c, type: 2}
 --- !u!1 &1659681608431640852
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +234,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 3
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1

@@ -211,6 +211,10 @@ MonoBehaviour:
   name: CrayonPhoto
   videoPlayer: {fileID: 5635570483199489408}
   animator: {fileID: 0}
+  rawImage: {fileID: 0}
+  closeButton: {fileID: 0}
+  content3D: {fileID: 5635570482470263383}
+  videoRenderTexture: {fileID: 8400000, guid: d154cc831458cf943853c602450e4b4f, type: 2}
 --- !u!1 &5635570482470263383
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +363,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 3
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1

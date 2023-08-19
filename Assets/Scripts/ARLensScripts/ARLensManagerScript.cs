@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -58,6 +59,14 @@ public class ARLensManagerScript : MonoBehaviour
     
     
     
+    //Screen Video from tracked Image target
+    [Space] [Header("Screen Video from tracked Image target")]
+    public GameObject HolderScreenVideo;
+    public RawImage rawImageScreenVideo;
+    private string ImageTargetName = "";
+    
+    
+    
     private void Awake()
     {
         
@@ -80,6 +89,9 @@ public class ARLensManagerScript : MonoBehaviour
             video360PrefabObjects.Add(prefab.name,prefab);
         }
         
+        //Deactivate the ScreenVideo
+        HolderScreenVideo.SetActive(false);
+        rawImageScreenVideo.texture = null;
         
     }
     
@@ -332,6 +344,7 @@ public class ARLensManagerScript : MonoBehaviour
         
         // add object to active objects dictionary
         activeObjects.Add(arObject.name,arObject);
+        ImageTargetName = arObject.name;
     }
 
     void LocalUpdatedImageEvent(ARTrackedImage image, bool isTracking)
@@ -350,7 +363,13 @@ public class ARLensManagerScript : MonoBehaviour
             ARSpawnObject spawnObject = arObject.GetComponent<ARSpawnObject>();
             if (spawnObject != null)
             {
-                spawnObject.OffRawImage();
+                if (spawnObject.videoRenderTexture == null)
+                    return;
+                
+                
+                spawnObject.OffScreenVideo();
+                HolderScreenVideo.SetActive(false);
+                rawImageScreenVideo.texture = null;
             }
                 
 
@@ -363,7 +382,23 @@ public class ARLensManagerScript : MonoBehaviour
             ARSpawnObject spawnObject = arObject.GetComponent<ARSpawnObject>();
             if (spawnObject != null)
             {
-                spawnObject.ShowRawImage();
+                if (spawnObject.videoRenderTexture == null)
+                    return;
+                
+                RenderTexture renderTexture= spawnObject.ShowScreenVideo();
+                rawImageScreenVideo.texture = renderTexture;
+                HolderScreenVideo.SetActive(true);
+
+            }
+            else
+            {
+                if (spawnObject.videoRenderTexture == null)
+                    return;
+                
+                arObject.SetActive(false);
+                HolderScreenVideo.SetActive(false);
+                rawImageScreenVideo.texture = null;
+
             }
 
         }
@@ -377,7 +412,20 @@ public class ARLensManagerScript : MonoBehaviour
             activeObjects.Remove(image.referenceImage.name);
         }
     }
-    
+
+    public void CloseScreenVideo()
+    {
+        HolderScreenVideo.SetActive(false);
+        rawImageScreenVideo.texture = null;
+        
+        GameObject arObject = activeObjects[ImageTargetName];
+        if (arObject == null)
+            return;
+       
+        arObject.SetActive(false);
+        
+    }
+
 
     #endregion
 

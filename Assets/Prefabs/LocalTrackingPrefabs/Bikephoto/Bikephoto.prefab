@@ -115,7 +115,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 3
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -248,6 +248,10 @@ MonoBehaviour:
   name: Bikephoto
   videoPlayer: {fileID: 4919212768367813814}
   animator: {fileID: 0}
+  rawImage: {fileID: 0}
+  closeButton: {fileID: 0}
+  content3D: {fileID: 4919212768687786560}
+  videoRenderTexture: {fileID: 8400000, guid: 96dc20e24f97c674bb3a851e0572e28e, type: 2}
 --- !u!1 &4919212768687786560
 GameObject:
   m_ObjectHideFlags: 0

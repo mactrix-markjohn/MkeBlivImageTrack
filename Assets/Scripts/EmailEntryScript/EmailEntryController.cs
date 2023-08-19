@@ -19,6 +19,7 @@ public class EmailEntryController : MonoBehaviour
     public void GetStartedButtonClick()
     {
         //TODO: Do some checking here with the firebase database and authentication
+        PlayerPrefs.SetInt(StringStore.OnBoarded,5);
         GetComponent<SceneTransition>().TransitionScene(StringStore.ARLensScene);
     }
 }

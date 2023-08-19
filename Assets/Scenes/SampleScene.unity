@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 58580670, guid: 8ccab071593944b4abd07983c2ea6b37, type: 3}
-      propertyPath: type
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2978524747708632000, guid: 8ccab071593944b4abd07983c2ea6b37, type: 3}
       propertyPath: m_Name
       value: Onekraizeenightphoto
@@ -718,7 +714,9 @@ MonoBehaviour:
   videoPlayer: {fileID: 0}
   animator: {fileID: 0}
   rawImage: {fileID: 0}
+  closeButton: {fileID: 0}
   content3D: {fileID: 0}
+  videoRenderTexture: {fileID: 0}
 --- !u!4 &3959045772087405741
 Transform:
   m_ObjectHideFlags: 0

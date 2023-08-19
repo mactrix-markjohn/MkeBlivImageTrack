@@ -26,6 +26,7 @@ public class ImageAssetsScript : MonoBehaviour
     public void GetStartedButtonClick()
     {
         //TODO: Do some checking here with the firebase database and authentication
+        
         GetComponent<SceneTransition>().TransitionScene(StringStore.ARLensScene);
     }
 }

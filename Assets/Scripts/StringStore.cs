@@ -88,4 +88,7 @@ public class StringStore
     public static string ARLensScene = "ARLensScene";
     public static string ImageTargetAssets = "ImageTargetAssets";
 
+
+    public static string OnBoarded = "OnBoarded";
+
 }

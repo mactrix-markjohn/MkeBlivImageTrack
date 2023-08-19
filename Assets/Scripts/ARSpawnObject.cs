@@ -16,6 +16,8 @@ public class ARSpawnObject : MonoBehaviour
     public GameObject closeButton;
     public GameObject content3D;
 
+    public RenderTexture videoRenderTexture;
+
 
 
     // Start is called before the first frame update
@@ -38,16 +40,29 @@ public class ARSpawnObject : MonoBehaviour
 
     public void OffRawImage()
     {
-        rawImage.SetActive(false);
-        closeButton.SetActive(false);
+        //rawImage.SetActive(false);
+        //closeButton.SetActive(false);
+        content3D.SetActive(true);
+    }
+    
+    public void OffScreenVideo()
+    {
+        
         content3D.SetActive(true);
     }
 
     public void ShowRawImage()
     {
-        rawImage.SetActive(true);
-        closeButton.SetActive(true);
+        //rawImage.SetActive(true);
+        //closeButton.SetActive(true);
         content3D.SetActive(false);
+    } 
+    
+    public RenderTexture ShowScreenVideo()
+    {
+       
+        content3D.SetActive(false);
+        return videoRenderTexture;
     }
 
     public void onAdded()

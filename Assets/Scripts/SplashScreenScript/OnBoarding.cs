@@ -24,6 +24,13 @@ public class OnBoarding : MonoBehaviour
         //arSession.SetActive(false);
         //arSessionOrgin.SetActive(false);
         //DeactivateURPRenderPipeline();
+
+        int onBoadingCheck = PlayerPrefs.GetInt(StringStore.OnBoarded);
+        if (onBoadingCheck == 5)
+        {
+            GetComponent<SceneTransition>().TransitionScene(StringStore.ARLensScene);
+        }
+
     }
 
     // Start is called before the first frame update
