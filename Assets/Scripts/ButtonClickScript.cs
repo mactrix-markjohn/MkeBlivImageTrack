@@ -20,8 +20,8 @@ public class ButtonClickScript : MonoBehaviour
     public void BackToMenu()
     {
         //SceneManager.LoadScene(StringStore.MenuScene);
-        SceneManager.LoadScene("TestCaptureVideoARLensScene");
-        //Application.Quit();
+        //SceneManager.LoadScene("TestCaptureVideoARLensScene");
+        Application.Quit();
     }
     
     
